@@ -15,11 +15,11 @@ import org.junit.Test;
 import junit.framework.TestCase;
 
 public class MailTest2 extends TestCase{
-	EmailMock testEmail;
+	SimpleEmail testEmail;
 	
 	@Before
 	public void setUp() {
-		testEmail = new EmailMock();
+		testEmail = new SimpleEmail();
 		
 	}
     
