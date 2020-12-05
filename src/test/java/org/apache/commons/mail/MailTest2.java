@@ -14,7 +14,7 @@ import org.junit.Test;
 
 import junit.framework.TestCase;
 
-public class EmailTest extends TestCase{
+public class MailTest2 extends TestCase{
 	EmailMock testEmail;
 	
 	@Before
