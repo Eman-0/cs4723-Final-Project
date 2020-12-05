@@ -25,6 +25,9 @@ public class MailTest2 extends TestCase{
     
 @Test
 	public void testBuildMimeMessage() throws EmailException {
+		System.out.println("Tests a full mime message");
+		System.out.println("mio__");
+		
 		Date date = new Date();
 		testEmail.setCharset("UTF-8");
 		testEmail.setHostName("John");
@@ -41,6 +44,8 @@ public class MailTest2 extends TestCase{
 	}
 	@Test
 	public void testBuildMimeMessageNullContent() throws EmailException {
+		System.out.println("Tests for when the content is null");
+		System.out.println("mio__");
 		
 		testEmail.setHostName("John");
 		testEmail.setFrom("Eman@gmail.com");
@@ -52,6 +57,8 @@ public class MailTest2 extends TestCase{
 	}
 	@Test
 	public void testBuildMimeMessageExists() throws EmailException {
+		System.out.println("Tests to see if mime exists");
+		System.out.println("mio__");
 		
 		testEmail.setHostName("John");
 		testEmail.setFrom("Eman@gmail.com");
